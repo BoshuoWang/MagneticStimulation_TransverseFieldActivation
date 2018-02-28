@@ -2,8 +2,8 @@
 #
 #SBATCH --array=1-615%123
 #SBATCH --job-name=SC_mp_HH
-#SBATCH --output=/SC_mp_HH/Output_MATLAB/%a.out
-#SBATCH --error=/SC_mp_HH/Error_reports/%a.err
+#SBATCH --error=/SC_mp_HH/Err_Out/%a.err
+#SBATCH --output=/SC_mp_HH/Err_Out/%a.out
 #SBATCH --mem=4G
 
 uname -n 1>&2
