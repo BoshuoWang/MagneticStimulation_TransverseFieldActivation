@@ -1,0 +1,47 @@
+Coil type: 	Figure-8 coil - perpendicular
+Waveform: 	Half-sine
+Parameter ID:	135
+Lateral axon-coil distance:	 -22.5 mm
+Vertical axon-coil distance:	 12.5 mm
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	10.0000 kA/us: 	 no AP.
+Increasing amplitude: 	20.0000 kA/us: 	 no AP.
+Increasing amplitude: 	40.0000 kA/us: 	 AP.
+Lower bound: 20.0000 kA/us.   Upper bound: 40.0000 kA/us.   Search amplitude: 28.2843 kA/us: AP.
+Lower bound: 20.0000 kA/us.   Upper bound: 28.2843 kA/us.   Search amplitude: 23.7841 kA/us: AP.
+Lower bound: 20.0000 kA/us.   Upper bound: 23.7841 kA/us.   Search amplitude: 21.8102 kA/us: no AP.
+Lower bound: 21.8102 kA/us.   Upper bound: 23.7841 kA/us.   Search amplitude: 22.7758 kA/us: no AP.
+Lower bound: 22.7758 kA/us.   Upper bound: 23.7841 kA/us.   Search amplitude: 23.2745 kA/us: no AP.
+Lower bound: 23.2745 kA/us.   Upper bound: 23.7841 kA/us.   Search amplitude: 23.5279 kA/us: AP.
+Lower bound: 23.2745 kA/us.   Upper bound: 23.5279 kA/us.   Search amplitude: 23.4009 kA/us: no AP.
+Lower bound: 23.4009 kA/us.   Upper bound: 23.5279 kA/us.   Search amplitude: 23.4643 kA/us: no AP.
+Binary search ended. Threshold: 23.4643 kA/us.
+ 
+Run time for search: 13.74 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	1.6079 kA/us: 	 no AP.
+Increasing amplitude: 	1.9121 kA/us: 	 no AP.
+Increasing amplitude: 	2.2739 kA/us: 	 no AP.
+Increasing amplitude: 	2.7041 kA/us: 	 no AP.
+Increasing amplitude: 	3.2157 kA/us: 	 no AP.
+Increasing amplitude: 	3.8242 kA/us: 	 no AP.
+Increasing amplitude: 	4.5477 kA/us: 	 AP.
+Lower bound: 3.8242 kA/us.   Upper bound: 4.5477 kA/us.   Search amplitude: 4.1703 kA/us: no AP.
+Lower bound: 4.1703 kA/us.   Upper bound: 4.5477 kA/us.   Search amplitude: 4.3549 kA/us: AP.
+Lower bound: 4.1703 kA/us.   Upper bound: 4.3549 kA/us.   Search amplitude: 4.2616 kA/us: no AP.
+Lower bound: 4.2616 kA/us.   Upper bound: 4.3549 kA/us.   Search amplitude: 4.3080 kA/us: no AP.
+Lower bound: 4.3080 kA/us.   Upper bound: 4.3549 kA/us.   Search amplitude: 4.3314 kA/us: no AP.
+Lower bound: 4.3314 kA/us.   Upper bound: 4.3549 kA/us.   Search amplitude: 4.3432 kA/us: no AP.
+Binary search ended. Threshold: 4.3432 kA/us.
+Percentage difference: -81.490 %.
+ 
+Run time for search: 197.93 min.
+ 
+-----------------------------------------------------------
+Total run time: 211.677 min.
+Results saved in F8Cp_hs_HH/Results/result_135.mat.

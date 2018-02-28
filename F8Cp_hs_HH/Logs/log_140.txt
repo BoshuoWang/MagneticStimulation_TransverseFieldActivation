@@ -1,0 +1,43 @@
+Coil type: 	Figure-8 coil - perpendicular
+Waveform: 	Half-sine
+Parameter ID:	140
+Lateral axon-coil distance:	 -10.0 mm
+Vertical axon-coil distance:	 12.5 mm
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	10.0000 kA/us: 	 no AP.
+Increasing amplitude: 	20.0000 kA/us: 	 no AP.
+Increasing amplitude: 	40.0000 kA/us: 	 AP.
+Lower bound: 20.0000 kA/us.   Upper bound: 40.0000 kA/us.   Search amplitude: 28.2843 kA/us: AP.
+Lower bound: 20.0000 kA/us.   Upper bound: 28.2843 kA/us.   Search amplitude: 23.7841 kA/us: no AP.
+Lower bound: 23.7841 kA/us.   Upper bound: 28.2843 kA/us.   Search amplitude: 25.9368 kA/us: no AP.
+Lower bound: 25.9368 kA/us.   Upper bound: 28.2843 kA/us.   Search amplitude: 27.0851 kA/us: no AP.
+Lower bound: 27.0851 kA/us.   Upper bound: 28.2843 kA/us.   Search amplitude: 27.6782 kA/us: no AP.
+Lower bound: 27.6782 kA/us.   Upper bound: 28.2843 kA/us.   Search amplitude: 27.9796 kA/us: AP.
+Lower bound: 27.6782 kA/us.   Upper bound: 27.9796 kA/us.   Search amplitude: 27.8285 kA/us: no AP.
+Lower bound: 27.8285 kA/us.   Upper bound: 27.9796 kA/us.   Search amplitude: 27.9039 kA/us: AP.
+Binary search ended. Threshold: 27.9039 kA/us.
+ 
+Run time for search: 31.01 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	1.9069 kA/us: 	 no AP.
+Increasing amplitude: 	2.2677 kA/us: 	 no AP.
+Increasing amplitude: 	2.6968 kA/us: 	 AP.
+Lower bound: 2.2677 kA/us.   Upper bound: 2.6968 kA/us.   Search amplitude: 2.4730 kA/us: AP.
+Lower bound: 2.2677 kA/us.   Upper bound: 2.4730 kA/us.   Search amplitude: 2.3681 kA/us: no AP.
+Lower bound: 2.3681 kA/us.   Upper bound: 2.4730 kA/us.   Search amplitude: 2.4200 kA/us: AP.
+Lower bound: 2.3681 kA/us.   Upper bound: 2.4200 kA/us.   Search amplitude: 2.3939 kA/us: AP.
+Lower bound: 2.3681 kA/us.   Upper bound: 2.3939 kA/us.   Search amplitude: 2.3810 kA/us: no AP.
+Lower bound: 2.3810 kA/us.   Upper bound: 2.3939 kA/us.   Search amplitude: 2.3874 kA/us: AP.
+Binary search ended. Threshold: 2.3874 kA/us.
+Percentage difference: -91.444 %.
+ 
+Run time for search: 213.89 min.
+ 
+-----------------------------------------------------------
+Total run time: 244.898 min.
+Results saved in F8Cp_hs_HH/Results/result_140.mat.

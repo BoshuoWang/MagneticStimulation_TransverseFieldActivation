@@ -1,0 +1,62 @@
+Coil type: 	Circular coil
+Waveform: 	Half-sine
+Parameter ID:	493
+Lateral axon-coil distance:	 -50.0 mm
+Vertical axon-coil distance:	 35.0 mm
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	10.2688 kA/us: 	 no AP.
+Increasing amplitude: 	20.5377 kA/us: 	 no AP.
+Increasing amplitude: 	41.0753 kA/us: 	 no AP.
+Increasing amplitude: 	82.1507 kA/us: 	 no AP.
+Increasing amplitude: 	0.1643 MA/us: 	 AP.
+Lower bound: 82.1507 kA/us.   Upper bound: 0.1643 MA/us.   Search amplitude: 0.1162 MA/us: AP.
+Lower bound: 82.1507 kA/us.   Upper bound: 0.1162 MA/us.   Search amplitude: 97.6942 kA/us: no AP.
+Lower bound: 97.6942 kA/us.   Upper bound: 0.1162 MA/us.   Search amplitude: 0.1065 MA/us: AP.
+Lower bound: 97.6942 kA/us.   Upper bound: 0.1065 MA/us.   Search amplitude: 0.1020 MA/us: no AP.
+Lower bound: 0.1020 MA/us.   Upper bound: 0.1065 MA/us.   Search amplitude: 0.1043 MA/us: no AP.
+Lower bound: 0.1043 MA/us.   Upper bound: 0.1065 MA/us.   Search amplitude: 0.1054 MA/us: AP.
+Lower bound: 0.1043 MA/us.   Upper bound: 0.1054 MA/us.   Search amplitude: 0.1048 MA/us: AP.
+Lower bound: 0.1043 MA/us.   Upper bound: 0.1048 MA/us.   Search amplitude: 0.1045 MA/us: AP.
+Binary search ended. Threshold: 0.1045 MA/us.
+ 
+Run time for search: 11.58 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	1.8201 kA/us: 	 no AP.
+Increasing amplitude: 	2.0430 kA/us: 	 no AP.
+Increasing amplitude: 	2.2932 kA/us: 	 no AP.
+Increasing amplitude: 	2.5741 kA/us: 	 no AP.
+Increasing amplitude: 	2.8893 kA/us: 	 no AP.
+Increasing amplitude: 	3.2431 kA/us: 	 no AP.
+Increasing amplitude: 	3.6403 kA/us: 	 no AP.
+Increasing amplitude: 	4.0861 kA/us: 	 no AP.
+Increasing amplitude: 	4.5864 kA/us: 	 no AP.
+Increasing amplitude: 	5.1481 kA/us: 	 no AP.
+Increasing amplitude: 	5.7786 kA/us: 	 no AP.
+Increasing amplitude: 	6.4862 kA/us: 	 no AP.
+Increasing amplitude: 	7.2805 kA/us: 	 no AP.
+Increasing amplitude: 	8.1721 kA/us: 	 no AP.
+Increasing amplitude: 	9.1729 kA/us: 	 no AP.
+Increasing amplitude: 	10.2962 kA/us: 	 no AP.
+Increasing amplitude: 	11.5571 kA/us: 	 no AP.
+Increasing amplitude: 	12.9724 kA/us: 	 no AP.
+Increasing amplitude: 	14.5611 kA/us: 	 no AP.
+Increasing amplitude: 	16.3442 kA/us: 	 no AP.
+Increasing amplitude: 	18.3458 kA/us: 	 AP.
+Lower bound: 16.3442 kA/us.   Upper bound: 18.3458 kA/us.   Search amplitude: 17.3161 kA/us: no AP.
+Lower bound: 17.3161 kA/us.   Upper bound: 18.3458 kA/us.   Search amplitude: 17.8235 kA/us: AP.
+Lower bound: 17.3161 kA/us.   Upper bound: 17.8235 kA/us.   Search amplitude: 17.5680 kA/us: no AP.
+Lower bound: 17.5680 kA/us.   Upper bound: 17.8235 kA/us.   Search amplitude: 17.6953 kA/us: AP.
+Lower bound: 17.5680 kA/us.   Upper bound: 17.6953 kA/us.   Search amplitude: 17.6315 kA/us: AP.
+Binary search ended. Threshold: 17.6315 kA/us.
+Percentage difference: -83.134 %.
+ 
+Run time for search: 210.54 min.
+ 
+-----------------------------------------------------------
+Total run time: 222.117 min.
+Results saved in SC_hs_HH/Results/result_493.mat.

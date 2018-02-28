@@ -1,0 +1,42 @@
+Coil type: 	Figure-8 coil - perpendicular
+Waveform: 	Monophasic
+Parameter ID:	63
+Lateral axon-coil distance:	 2.5 mm
+Vertical axon-coil distance:	 7.5 mm
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	10.0000 kA/us: 	 no AP.
+Increasing amplitude: 	20.0000 kA/us: 	 AP.
+Lower bound: 10.0000 kA/us.   Upper bound: 20.0000 kA/us.   Search amplitude: 14.1421 kA/us: no AP.
+Lower bound: 14.1421 kA/us.   Upper bound: 20.0000 kA/us.   Search amplitude: 16.8179 kA/us: no AP.
+Lower bound: 16.8179 kA/us.   Upper bound: 20.0000 kA/us.   Search amplitude: 18.3401 kA/us: no AP.
+Lower bound: 18.3401 kA/us.   Upper bound: 20.0000 kA/us.   Search amplitude: 19.1521 kA/us: no AP.
+Lower bound: 19.1521 kA/us.   Upper bound: 20.0000 kA/us.   Search amplitude: 19.5714 kA/us: no AP.
+Lower bound: 19.5714 kA/us.   Upper bound: 20.0000 kA/us.   Search amplitude: 19.7846 kA/us: AP.
+Lower bound: 19.5714 kA/us.   Upper bound: 19.7846 kA/us.   Search amplitude: 19.6777 kA/us: AP.
+Lower bound: 19.5714 kA/us.   Upper bound: 19.6777 kA/us.   Search amplitude: 19.6245 kA/us: no AP.
+Binary search ended. Threshold: 19.6245 kA/us.
+ 
+Run time for search: 13.07 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	1.0897 kA/us: 	 no AP.
+Increasing amplitude: 	1.2959 kA/us: 	 no AP.
+Increasing amplitude: 	1.5410 kA/us: 	 AP.
+Lower bound: 1.2959 kA/us.   Upper bound: 1.5410 kA/us.   Search amplitude: 1.4131 kA/us: AP.
+Lower bound: 1.2959 kA/us.   Upper bound: 1.4131 kA/us.   Search amplitude: 1.3532 kA/us: no AP.
+Lower bound: 1.3532 kA/us.   Upper bound: 1.4131 kA/us.   Search amplitude: 1.3829 kA/us: no AP.
+Lower bound: 1.3829 kA/us.   Upper bound: 1.4131 kA/us.   Search amplitude: 1.3979 kA/us: no AP.
+Lower bound: 1.3979 kA/us.   Upper bound: 1.4131 kA/us.   Search amplitude: 1.4055 kA/us: AP.
+Lower bound: 1.3979 kA/us.   Upper bound: 1.4055 kA/us.   Search amplitude: 1.4017 kA/us: no AP.
+Binary search ended. Threshold: 1.4017 kA/us.
+Percentage difference: -92.857 %.
+ 
+Run time for search: 165.55 min.
+ 
+-----------------------------------------------------------
+Total run time: 178.615 min.
+Results saved in F8Cp_mp_HH/Results/result_63.mat.

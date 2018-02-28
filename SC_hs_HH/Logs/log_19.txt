@@ -1,0 +1,42 @@
+Coil type: 	Circular coil
+Waveform: 	Half-sine
+Parameter ID:	19
+Lateral axon-coil distance:	 -5.0 mm
+Vertical axon-coil distance:	 5.0 mm
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	10.0000 kA/us: 	 no AP.
+Increasing amplitude: 	20.0000 kA/us: 	 AP.
+Lower bound: 10.0000 kA/us.   Upper bound: 20.0000 kA/us.   Search amplitude: 14.1421 kA/us: AP.
+Lower bound: 10.0000 kA/us.   Upper bound: 14.1421 kA/us.   Search amplitude: 11.8921 kA/us: AP.
+Lower bound: 10.0000 kA/us.   Upper bound: 11.8921 kA/us.   Search amplitude: 10.9051 kA/us: no AP.
+Lower bound: 10.9051 kA/us.   Upper bound: 11.8921 kA/us.   Search amplitude: 11.3879 kA/us: no AP.
+Lower bound: 11.3879 kA/us.   Upper bound: 11.8921 kA/us.   Search amplitude: 11.6372 kA/us: AP.
+Lower bound: 11.3879 kA/us.   Upper bound: 11.6372 kA/us.   Search amplitude: 11.5119 kA/us: AP.
+Lower bound: 11.3879 kA/us.   Upper bound: 11.5119 kA/us.   Search amplitude: 11.4497 kA/us: AP.
+Lower bound: 11.3879 kA/us.   Upper bound: 11.4497 kA/us.   Search amplitude: 11.4188 kA/us: no AP.
+Binary search ended. Threshold: 11.4188 kA/us.
+ 
+Run time for search: 13.42 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	0.7825 kA/us: 	 no AP.
+Increasing amplitude: 	0.9305 kA/us: 	 no AP.
+Increasing amplitude: 	1.1066 kA/us: 	 AP.
+Lower bound: 0.9305 kA/us.   Upper bound: 1.1066 kA/us.   Search amplitude: 1.0147 kA/us: no AP.
+Lower bound: 1.0147 kA/us.   Upper bound: 1.1066 kA/us.   Search amplitude: 1.0597 kA/us: no AP.
+Lower bound: 1.0597 kA/us.   Upper bound: 1.1066 kA/us.   Search amplitude: 1.0829 kA/us: no AP.
+Lower bound: 1.0829 kA/us.   Upper bound: 1.1066 kA/us.   Search amplitude: 1.0946 kA/us: AP.
+Lower bound: 1.0829 kA/us.   Upper bound: 1.0946 kA/us.   Search amplitude: 1.0887 kA/us: AP.
+Lower bound: 1.0829 kA/us.   Upper bound: 1.0887 kA/us.   Search amplitude: 1.0858 kA/us: AP.
+Binary search ended. Threshold: 1.0858 kA/us.
+Percentage difference: -90.517 %.
+ 
+Run time for search: 98.89 min.
+ 
+-----------------------------------------------------------
+Total run time: 112.316 min.
+Results saved in SC_hs_HH/Results/result_19.mat.

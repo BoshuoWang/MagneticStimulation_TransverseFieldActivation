@@ -1,0 +1,122 @@
+Coil type: 	Figure-8 coil - perpendicular
+Waveform: 	Monophasic
+Parameter ID:	334
+Lateral axon-coil distance:	 -37.5 mm
+Vertical axon-coil distance:	 25.0 mm
+-----------------------------------------------------------
+Nerve fiber: straight. Solver: CE
+ 
+Initial search with:  	0.1000 kA/us: 	 no AP.
+Increasing amplitude: 	0.2000 kA/us: 	 no AP.
+Increasing amplitude: 	0.4000 kA/us: 	 no AP.
+Increasing amplitude: 	0.8000 kA/us: 	 AP.
+Lower bound: 0.4000 kA/us.   Upper bound: 0.8000 kA/us.   Search amplitude: 0.5657 kA/us: AP.
+Lower bound: 0.4000 kA/us.   Upper bound: 0.5657 kA/us.   Search amplitude: 0.4757 kA/us: no AP.
+Lower bound: 0.4757 kA/us.   Upper bound: 0.5657 kA/us.   Search amplitude: 0.5187 kA/us: AP.
+Lower bound: 0.4757 kA/us.   Upper bound: 0.5187 kA/us.   Search amplitude: 0.4967 kA/us: AP.
+Lower bound: 0.4757 kA/us.   Upper bound: 0.4967 kA/us.   Search amplitude: 0.4861 kA/us: no AP.
+Lower bound: 0.4861 kA/us.   Upper bound: 0.4967 kA/us.   Search amplitude: 0.4914 kA/us: AP.
+Lower bound: 0.4861 kA/us.   Upper bound: 0.4914 kA/us.   Search amplitude: 0.4887 kA/us: no AP.
+Lower bound: 0.4887 kA/us.   Upper bound: 0.4914 kA/us.   Search amplitude: 0.4901 kA/us: AP.
+Binary search ended. Threshold: 0.4901 kA/us.
+ 
+Run time for search: 0.92 min.
+ 
+-----------------------------------------------------------
+Nerve fiber: straight. Solver: MCE
+ 
+Initial search with:  	51.6413  A/us: 	 no AP.
+Increasing amplitude: 	73.0318  A/us: 	 no AP.
+Increasing amplitude: 	0.1033 kA/us: 	 no AP.
+Increasing amplitude: 	0.1461 kA/us: 	 no AP.
+Increasing amplitude: 	0.2066 kA/us: 	 no AP.
+Increasing amplitude: 	0.2921 kA/us: 	 no AP.
+Increasing amplitude: 	0.4131 kA/us: 	 no AP.
+Increasing amplitude: 	0.5843 kA/us: 	 AP.
+Lower bound: 0.4131 kA/us.   Upper bound: 0.5843 kA/us.   Search amplitude: 0.4913 kA/us: AP.
+Lower bound: 0.4131 kA/us.   Upper bound: 0.4913 kA/us.   Search amplitude: 0.4505 kA/us: no AP.
+Lower bound: 0.4505 kA/us.   Upper bound: 0.4913 kA/us.   Search amplitude: 0.4705 kA/us: no AP.
+Lower bound: 0.4705 kA/us.   Upper bound: 0.4913 kA/us.   Search amplitude: 0.4808 kA/us: no AP.
+Lower bound: 0.4808 kA/us.   Upper bound: 0.4913 kA/us.   Search amplitude: 0.4860 kA/us: no AP.
+Lower bound: 0.4860 kA/us.   Upper bound: 0.4913 kA/us.   Search amplitude: 0.4886 kA/us: no AP.
+Lower bound: 0.4886 kA/us.   Upper bound: 0.4913 kA/us.   Search amplitude: 0.4900 kA/us: AP.
+Binary search ended. Threshold: 0.4900 kA/us.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 2.65 min.
+ 
+-----------------------------------------------------------
+Nerve fiber: axon undulation. Solver: CE
+ 
+Initial search with:  	57.9936  A/us: 	 no AP.
+Increasing amplitude: 	82.0153  A/us: 	 no AP.
+Increasing amplitude: 	0.1160 kA/us: 	 no AP.
+Increasing amplitude: 	0.1640 kA/us: 	 no AP.
+Increasing amplitude: 	0.2320 kA/us: 	 no AP.
+Increasing amplitude: 	0.3281 kA/us: 	 no AP.
+Increasing amplitude: 	0.4639 kA/us: 	 no AP.
+Increasing amplitude: 	0.6561 kA/us: 	 no AP.
+Increasing amplitude: 	0.9279 kA/us: 	 AP.
+Lower bound: 0.6561 kA/us.   Upper bound: 0.9279 kA/us.   Search amplitude: 0.7803 kA/us: no AP.
+Lower bound: 0.7803 kA/us.   Upper bound: 0.9279 kA/us.   Search amplitude: 0.8509 kA/us: AP.
+Lower bound: 0.7803 kA/us.   Upper bound: 0.8509 kA/us.   Search amplitude: 0.8148 kA/us: AP.
+Lower bound: 0.7803 kA/us.   Upper bound: 0.8148 kA/us.   Search amplitude: 0.7974 kA/us: AP.
+Lower bound: 0.7803 kA/us.   Upper bound: 0.7974 kA/us.   Search amplitude: 0.7888 kA/us: no AP.
+Lower bound: 0.7888 kA/us.   Upper bound: 0.7974 kA/us.   Search amplitude: 0.7930 kA/us: no AP.
+Lower bound: 0.7930 kA/us.   Upper bound: 0.7974 kA/us.   Search amplitude: 0.7952 kA/us: no AP.
+Binary search ended. Threshold: 0.7952 kA/us.
+Percentage difference: 62.704 %.
+ 
+Run time for search: 4.77 min.
+ 
+-----------------------------------------------------------
+Nerve fiber: fiber undulation. Solver: CE
+ 
+Initial search with:  	37.9366  A/us: 	 no AP.
+Increasing amplitude: 	53.6504  A/us: 	 no AP.
+Increasing amplitude: 	75.8731  A/us: 	 no AP.
+Increasing amplitude: 	0.1073 kA/us: 	 no AP.
+Increasing amplitude: 	0.1517 kA/us: 	 no AP.
+Increasing amplitude: 	0.2146 kA/us: 	 no AP.
+Increasing amplitude: 	0.3035 kA/us: 	 no AP.
+Increasing amplitude: 	0.4292 kA/us: 	 no AP.
+Increasing amplitude: 	0.6070 kA/us: 	 AP.
+Lower bound: 0.4292 kA/us.   Upper bound: 0.6070 kA/us.   Search amplitude: 0.5104 kA/us: AP.
+Lower bound: 0.4292 kA/us.   Upper bound: 0.5104 kA/us.   Search amplitude: 0.4680 kA/us: no AP.
+Lower bound: 0.4680 kA/us.   Upper bound: 0.5104 kA/us.   Search amplitude: 0.4888 kA/us: no AP.
+Lower bound: 0.4888 kA/us.   Upper bound: 0.5104 kA/us.   Search amplitude: 0.4995 kA/us: AP.
+Lower bound: 0.4888 kA/us.   Upper bound: 0.4995 kA/us.   Search amplitude: 0.4941 kA/us: AP.
+Lower bound: 0.4888 kA/us.   Upper bound: 0.4941 kA/us.   Search amplitude: 0.4914 kA/us: AP.
+Lower bound: 0.4888 kA/us.   Upper bound: 0.4914 kA/us.   Search amplitude: 0.4901 kA/us: AP.
+Binary search ended. Threshold: 0.4901 kA/us.
+Percentage difference: 0.000 %.
+ 
+Run time for search: 4.45 min.
+ 
+-----------------------------------------------------------
+Nerve fiber: axon and fiber undulation. Solver: CE
+ 
+Initial search with:  	53.2315  A/us: 	 no AP.
+Increasing amplitude: 	75.2808  A/us: 	 no AP.
+Increasing amplitude: 	0.1065 kA/us: 	 no AP.
+Increasing amplitude: 	0.1506 kA/us: 	 no AP.
+Increasing amplitude: 	0.2129 kA/us: 	 no AP.
+Increasing amplitude: 	0.3011 kA/us: 	 no AP.
+Increasing amplitude: 	0.4259 kA/us: 	 no AP.
+Increasing amplitude: 	0.6022 kA/us: 	 no AP.
+Increasing amplitude: 	0.8517 kA/us: 	 AP.
+Lower bound: 0.6022 kA/us.   Upper bound: 0.8517 kA/us.   Search amplitude: 0.7162 kA/us: AP.
+Lower bound: 0.6022 kA/us.   Upper bound: 0.7162 kA/us.   Search amplitude: 0.6568 kA/us: AP.
+Lower bound: 0.6022 kA/us.   Upper bound: 0.6568 kA/us.   Search amplitude: 0.6289 kA/us: no AP.
+Lower bound: 0.6289 kA/us.   Upper bound: 0.6568 kA/us.   Search amplitude: 0.6427 kA/us: AP.
+Lower bound: 0.6289 kA/us.   Upper bound: 0.6427 kA/us.   Search amplitude: 0.6358 kA/us: AP.
+Lower bound: 0.6289 kA/us.   Upper bound: 0.6358 kA/us.   Search amplitude: 0.6323 kA/us: AP.
+Lower bound: 0.6289 kA/us.   Upper bound: 0.6323 kA/us.   Search amplitude: 0.6306 kA/us: no AP.
+Binary search ended. Threshold: 0.6306 kA/us.
+Percentage difference: 29.029 %.
+ 
+Run time for search: 4.14 min.
+ 
+-----------------------------------------------------------
+Total run time: 16.943 min.
+Results saved in F8Cp_mp_RMG/Results/result_334.mat.

@@ -1,0 +1,47 @@
+Coil type: 	Figure-8 coil - perpendicular
+Waveform: 	Half-sine
+Parameter ID:	62
+Lateral axon-coil distance:	 0.0 mm
+Vertical axon-coil distance:	 7.5 mm
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	10.0000 kA/us: 	 no AP.
+Increasing amplitude: 	20.0000 kA/us: 	 no AP.
+Increasing amplitude: 	40.0000 kA/us: 	 no AP.
+Increasing amplitude: 	80.0000 kA/us: 	 no AP.
+Increasing amplitude: 	0.1600 MA/us: 	 no AP.
+Increasing amplitude: 	0.3200 MA/us: 	 no AP.
+Increasing amplitude: 	0.6400 MA/us: 	 no AP.
+Increasing amplitude: 	1.2800 MA/us: 	 no AP.
+Increasing amplitude: 	2.5600 MA/us: 	 no AP.
+Increasing amplitude: 	5.1200 MA/us: 	 no AP.
+All trials subthreshold. Threshold could not be determined.
+ 
+ 
+Run time for search: 18.21 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	10.0000 kA/us: 	 AP.
+Decreasing amplitude: 	5.0000 kA/us: 	 AP.
+Decreasing amplitude: 	2.5000 kA/us: 	 AP.
+Decreasing amplitude: 	1.2500 kA/us: 	 AP.
+Decreasing amplitude: 	0.6250 kA/us: 	 no AP.
+Lower bound: 0.6250 kA/us.   Upper bound: 1.2500 kA/us.   Search amplitude: 0.8839 kA/us: no AP.
+Lower bound: 0.8839 kA/us.   Upper bound: 1.2500 kA/us.   Search amplitude: 1.0511 kA/us: no AP.
+Lower bound: 1.0511 kA/us.   Upper bound: 1.2500 kA/us.   Search amplitude: 1.1463 kA/us: no AP.
+Lower bound: 1.1463 kA/us.   Upper bound: 1.2500 kA/us.   Search amplitude: 1.1970 kA/us: no AP.
+Lower bound: 1.1970 kA/us.   Upper bound: 1.2500 kA/us.   Search amplitude: 1.2232 kA/us: no AP.
+Lower bound: 1.2232 kA/us.   Upper bound: 1.2500 kA/us.   Search amplitude: 1.2365 kA/us: AP.
+Lower bound: 1.2232 kA/us.   Upper bound: 1.2365 kA/us.   Search amplitude: 1.2299 kA/us: no AP.
+Lower bound: 1.2299 kA/us.   Upper bound: 1.2365 kA/us.   Search amplitude: 1.2332 kA/us: no AP.
+Binary search ended. Threshold: 1.2332 kA/us.
+Percentage difference: -100.000 %.
+ 
+Run time for search: 217.54 min.
+ 
+-----------------------------------------------------------
+Total run time: 235.744 min.
+Results saved in F8Cp_hs_HH/Results/result_62.mat.
