@@ -1,0 +1,42 @@
+Coil type: 	Circular coil
+Waveform: 	Monophasic
+Parameter ID:	104
+Lateral axon-coil distance:	 2.5 mm
+Vertical axon-coil distance:	 10.0 mm
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	10.0000 kA/us: 	 no AP.
+Increasing amplitude: 	20.0000 kA/us: 	 no AP.
+Increasing amplitude: 	40.0000 kA/us: 	 AP.
+Lower bound: 20.0000 kA/us.   Upper bound: 40.0000 kA/us.   Search amplitude: 28.2843 kA/us: no AP.
+Lower bound: 28.2843 kA/us.   Upper bound: 40.0000 kA/us.   Search amplitude: 33.6359 kA/us: no AP.
+Lower bound: 33.6359 kA/us.   Upper bound: 40.0000 kA/us.   Search amplitude: 36.6802 kA/us: no AP.
+Lower bound: 36.6802 kA/us.   Upper bound: 40.0000 kA/us.   Search amplitude: 38.3041 kA/us: AP.
+Lower bound: 36.6802 kA/us.   Upper bound: 38.3041 kA/us.   Search amplitude: 37.4834 kA/us: AP.
+Lower bound: 36.6802 kA/us.   Upper bound: 37.4834 kA/us.   Search amplitude: 37.0796 kA/us: AP.
+Lower bound: 36.6802 kA/us.   Upper bound: 37.0796 kA/us.   Search amplitude: 36.8793 kA/us: no AP.
+Lower bound: 36.8793 kA/us.   Upper bound: 37.0796 kA/us.   Search amplitude: 36.9793 kA/us: AP.
+Binary search ended. Threshold: 36.9793 kA/us.
+ 
+Run time for search: 16.49 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	2.0478 kA/us: 	 AP.
+Decreasing amplitude: 	1.7220 kA/us: 	 no AP.
+Lower bound: 1.7220 kA/us.   Upper bound: 2.0478 kA/us.   Search amplitude: 1.8778 kA/us: no AP.
+Lower bound: 1.8778 kA/us.   Upper bound: 2.0478 kA/us.   Search amplitude: 1.9610 kA/us: no AP.
+Lower bound: 1.9610 kA/us.   Upper bound: 2.0478 kA/us.   Search amplitude: 2.0039 kA/us: AP.
+Lower bound: 1.9610 kA/us.   Upper bound: 2.0039 kA/us.   Search amplitude: 1.9823 kA/us: no AP.
+Lower bound: 1.9823 kA/us.   Upper bound: 2.0039 kA/us.   Search amplitude: 1.9931 kA/us: AP.
+Lower bound: 1.9823 kA/us.   Upper bound: 1.9931 kA/us.   Search amplitude: 1.9877 kA/us: AP.
+Binary search ended. Threshold: 1.9877 kA/us.
+Percentage difference: -94.625 %.
+ 
+Run time for search: 150.10 min.
+ 
+-----------------------------------------------------------
+Total run time: 166.588 min.
+Results saved in SC_mp_HH/Results/result_104.mat.

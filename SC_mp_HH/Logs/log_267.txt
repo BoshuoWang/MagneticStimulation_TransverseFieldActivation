@@ -1,0 +1,45 @@
+Coil type: 	Circular coil
+Waveform: 	Monophasic
+Parameter ID:	267
+Lateral axon-coil distance:	 0.0 mm
+Vertical axon-coil distance:	 20.0 mm
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	10.0000 kA/us: 	 no AP.
+Increasing amplitude: 	20.0000 kA/us: 	 no AP.
+Increasing amplitude: 	40.0000 kA/us: 	 no AP.
+Increasing amplitude: 	80.0000 kA/us: 	 no AP.
+Increasing amplitude: 	0.1600 MA/us: 	 no AP.
+Increasing amplitude: 	0.3200 MA/us: 	 no AP.
+Increasing amplitude: 	0.6400 MA/us: 	 no AP.
+Increasing amplitude: 	1.2800 MA/us: 	 no AP.
+Increasing amplitude: 	2.5600 MA/us: 	 no AP.
+Increasing amplitude: 	5.1200 MA/us: 	 no AP.
+All trials subthreshold. Threshold could not be determined.
+ 
+ 
+Run time for search: 23.65 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	10.0000 kA/us: 	 AP.
+Decreasing amplitude: 	5.0000 kA/us: 	 AP.
+Decreasing amplitude: 	2.5000 kA/us: 	 no AP.
+Lower bound: 2.5000 kA/us.   Upper bound: 5.0000 kA/us.   Search amplitude: 3.5355 kA/us: no AP.
+Lower bound: 3.5355 kA/us.   Upper bound: 5.0000 kA/us.   Search amplitude: 4.2045 kA/us: AP.
+Lower bound: 3.5355 kA/us.   Upper bound: 4.2045 kA/us.   Search amplitude: 3.8555 kA/us: no AP.
+Lower bound: 3.8555 kA/us.   Upper bound: 4.2045 kA/us.   Search amplitude: 4.0262 kA/us: no AP.
+Lower bound: 4.0262 kA/us.   Upper bound: 4.2045 kA/us.   Search amplitude: 4.1144 kA/us: AP.
+Lower bound: 4.0262 kA/us.   Upper bound: 4.1144 kA/us.   Search amplitude: 4.0701 kA/us: AP.
+Lower bound: 4.0262 kA/us.   Upper bound: 4.0701 kA/us.   Search amplitude: 4.0481 kA/us: no AP.
+Lower bound: 4.0481 kA/us.   Upper bound: 4.0701 kA/us.   Search amplitude: 4.0591 kA/us: no AP.
+Binary search ended. Threshold: 4.0591 kA/us.
+Percentage difference: -100.000 %.
+ 
+Run time for search: 196.03 min.
+ 
+-----------------------------------------------------------
+Total run time: 219.675 min.
+Results saved in SC_mp_HH/Results/result_267.mat.

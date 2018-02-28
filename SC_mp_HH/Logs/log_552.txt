@@ -1,0 +1,44 @@
+Coil type: 	Circular coil
+Waveform: 	Monophasic
+Parameter ID:	552
+Lateral axon-coil distance:	 -5.0 mm
+Vertical axon-coil distance:	 37.5 mm
+-----------------------------------------------------------
+Solver: CE
+ 
+Initial search with:  	10.2688 kA/us: 	 no AP.
+Increasing amplitude: 	20.5377 kA/us: 	 no AP.
+Increasing amplitude: 	41.0753 kA/us: 	 no AP.
+Increasing amplitude: 	82.1507 kA/us: 	 no AP.
+Increasing amplitude: 	0.1643 MA/us: 	 no AP.
+Increasing amplitude: 	0.3286 MA/us: 	 AP.
+Lower bound: 0.1643 MA/us.   Upper bound: 0.3286 MA/us.   Search amplitude: 0.2324 MA/us: AP.
+Lower bound: 0.1643 MA/us.   Upper bound: 0.2324 MA/us.   Search amplitude: 0.1954 MA/us: no AP.
+Lower bound: 0.1954 MA/us.   Upper bound: 0.2324 MA/us.   Search amplitude: 0.2131 MA/us: no AP.
+Lower bound: 0.2131 MA/us.   Upper bound: 0.2324 MA/us.   Search amplitude: 0.2225 MA/us: no AP.
+Lower bound: 0.2225 MA/us.   Upper bound: 0.2324 MA/us.   Search amplitude: 0.2274 MA/us: AP.
+Lower bound: 0.2225 MA/us.   Upper bound: 0.2274 MA/us.   Search amplitude: 0.2249 MA/us: AP.
+Lower bound: 0.2225 MA/us.   Upper bound: 0.2249 MA/us.   Search amplitude: 0.2237 MA/us: no AP.
+Lower bound: 0.2237 MA/us.   Upper bound: 0.2249 MA/us.   Search amplitude: 0.2243 MA/us: AP.
+Binary search ended. Threshold: 0.2243 MA/us.
+ 
+Run time for search: 9.49 min.
+ 
+-----------------------------------------------------------
+Solver: MCE
+ 
+Initial search with:  	8.9728 kA/us: 	 no AP.
+Increasing amplitude: 	9.6912 kA/us: 	 no AP.
+Increasing amplitude: 	10.4671 kA/us: 	 AP.
+Lower bound: 9.6912 kA/us.   Upper bound: 10.4671 kA/us.   Search amplitude: 10.0717 kA/us: AP.
+Lower bound: 9.6912 kA/us.   Upper bound: 10.0717 kA/us.   Search amplitude: 9.8796 kA/us: no AP.
+Lower bound: 9.8796 kA/us.   Upper bound: 10.0717 kA/us.   Search amplitude: 9.9752 kA/us: no AP.
+Lower bound: 9.9752 kA/us.   Upper bound: 10.0717 kA/us.   Search amplitude: 10.0233 kA/us: AP.
+Binary search ended. Threshold: 10.0233 kA/us.
+Percentage difference: -95.532 %.
+ 
+Run time for search: 38.38 min.
+ 
+-----------------------------------------------------------
+Total run time: 47.873 min.
+Results saved in SC_mp_HH/Results/result_552.mat.
