@@ -32,11 +32,11 @@ results = struct(   'th_CE',  NaN, ...                      % Default: straigth 
                 );  
 %%  Main loop for simulations
 t_main = tic;
+[solver, stimulation, cable] = specify_model_MS_HH( mod_prmtr );	% Specify parameters for solver, stimulation, and cable
 
 for ii = 1 : num_sim
     t_th = tic;
     
-    [solver, stimulation, cable] = specify_model_MS_HH( mod_prmtr );	% Specify parameters for solver, stimulation, and cable
     solver.is_MCE =  MCE(ii);                                           % Whether to use MCE
     
     if ii == 1
