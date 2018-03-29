@@ -31,14 +31,14 @@ for ii = 1 : 2
     %
     
     %%
-    x_mark_l = 1:50*2;
-    x_mark_r = 50*2+1;
-    y_mark1_l = 1:round((1 - y_unit*( y_begin(4) - y_gap/2 ))*figure_length_y)*2;
-    y_mark2_l = round((1 - y_unit*( y_begin(1) + y_length(1) +  y_gap/2 ))*figure_length_y)*2+1 : round((1 - y_unit*( y_begin(3) - y_gap/2 ))*figure_length_y)*2;
-    y_mark3_l = round((1 - y_unit*( y_begin(4) - y_gap/2 ))*figure_length_y)*2+1;
+    x_mark_l = 1:50;
+    x_mark_r = 50+1;
+    y_mark1_l = 1:round((1 - y_unit*( y_begin(4) - y_gap/2 ))*figure_length_y);
+    y_mark2_l = round((1 - y_unit*( y_begin(1) + y_length(1) +  y_gap/2 ))*figure_length_y)+1 : round((1 - y_unit*( y_begin(3) - y_gap/2 ))*figure_length_y);
+    y_mark3_l = round((1 - y_unit*( y_begin(4) - y_gap/2 ))*figure_length_y)+1;
     
-    y_mark1_r = 1:round((1 - y_unit*( y_begin(3) - y_gap/2 ))*figure_length_y)*2;
-    y_mark2_r = round((1 - y_unit*( y_begin(4)+ y_length(4) + y_gap/2 ))*figure_length_y)*2+1;
+    y_mark1_r = 1:round((1 - y_unit*( y_begin(3) - y_gap/2 ))*figure_length_y);
+    y_mark2_r = round((1 - y_unit*( y_begin(4)+ y_length(4) + y_gap/2 ))*figure_length_y)+1;
     
     im_0 = cat(1, im_0u(y_mark1_r,:,:), im_0d(y_mark2_r:end,:,:));
     im_end = cat(1, im_end_u(y_mark1_r,:,:), im_end_d(y_mark2_r:end,:,:));

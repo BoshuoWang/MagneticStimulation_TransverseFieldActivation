@@ -45,6 +45,6 @@ set(h_ax_temp.Title,format_title,'FontSize', 18);
 %%
 frame = getframe(h_f);
 im_0 = frame2im(frame);
-im_end = im_0(round((1 - y_unit * 2.5) * figure_length_y)*2+1:end,:,:);
-im_0 = im_0(1:round((y_unit * 2) * figure_length_y)*2,:,:);
+im_end = im_0(round((1 - y_unit * 2.5) * figure_length_y)+1:end,:,:);
+im_0 = im_0(1:round((y_unit * 2) * figure_length_y),:,:);
 close(h_f);

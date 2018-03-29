@@ -40,8 +40,8 @@ set(h_ax_temp.YLabel,'FontSize', 18);
 %%
 frame = getframe(h_f);
 im_0u = frame2im(frame);
-im_end_u = im_0u(:,round((1 - x_unit * (3+x_gap)) * figure_length_x)*2+1:end,:);
-im_0u = im_0u(:,1:round((x_unit * (5 - x_gap)) * figure_length_x)*2 ,:);
+im_end_u = im_0u(:,round((1 - x_unit * (3+x_gap)) * figure_length_x)+1:end,:);
+im_0u = im_0u(:,1:round((x_unit * (5 - x_gap)) * figure_length_x) ,:);
 close(h_f);
 
 %%
@@ -80,6 +80,6 @@ set(h_ax_temp.YLabel,'FontSize', 18);
 %%
 frame = getframe(h_f);
 im_0d = frame2im(frame);
-im_end_d = im_0d(:,round((1 - x_unit * (3+x_gap)) * figure_length_x)*2+1:end,:);
-im_0d = im_0d(:,1:round((x_unit * (5 - x_gap)) * figure_length_x)*2 ,:);
+im_end_d = im_0d(:,round((1 - x_unit * (3+x_gap)) * figure_length_x)+1:end,:);
+im_0d = im_0d(:,1:round((x_unit * (5 - x_gap)) * figure_length_x) ,:);
 close(h_f);

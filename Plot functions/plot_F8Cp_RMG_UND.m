@@ -170,10 +170,10 @@ patch(R_coil*x_coil_norm,YY_all(y_coil_ind)*y_coil_norm,c_coil,format_coil);
 %%
 frame = getframe(h_f1);
 im_3u = frame2im(frame);
-im_3u = im_3u(:,1:round( (x_begin(1) + x_length(1)+x_gap/2) * x_unit * figure_length_x)*2,:);
+im_3u = im_3u(:,1:round( (x_begin(1) + x_length(1)+x_gap/2) * x_unit * figure_length_x),:);
 close(h_f1);
 
 frame = getframe(h_f2);
 im_3d = frame2im(frame);
-im_3d = im_3d(:,1:round( (x_begin(1) + x_length(1)+x_gap/2) * x_unit * figure_length_x)*2,:);
+im_3d = im_3d(:,1:round( (x_begin(1) + x_length(1)+x_gap/2) * x_unit * figure_length_x),:);
 close(h_f2);
